@@ -19,7 +19,7 @@ def main():
         else:
             # Calculate and display squares from 0 to user_num
             for counter in range(user_num + 1):
-                answer = counter**2
+                answer = counter ** 2
                 print(f"{counter}² = {answer}")
 
     except Exception:
